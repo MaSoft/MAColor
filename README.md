@@ -6,7 +6,7 @@ Cambia los colores de cualquier programa que no tenga temas ni modo oscuro, sin 
 
 [![Descargar](https://img.shields.io/github/v/release/MaSoft/MAColor?label=Descargar&style=for-the-badge)](https://github.com/MaSoft/MAColor/releases/latest)
 
-También puedes descargarlo desde [masoft.es](https://masoft.es/descargas.html).
+Más información y el manual también en [masoft.es](https://masoft.es/descargas.html#macolor).
 
 ![Filtros](capturas/01-filtros.webp)
 
