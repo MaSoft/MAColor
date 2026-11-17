@@ -32,7 +32,7 @@ Más información y el manual también en [masoft.es](https://masoft.es/descarga
 |---|---|
 | Sistema | Windows 10 u 11 de 64 bits. Sustituir colores y «Texto y vista» necesitan Windows 10 versión 2004 o posterior |
 | Permisos | No necesita administrador |
-| Instalación | No hace falta: un solo .exe que se copia y se abre. Python va dentro |
+| Instalación | Instalador para tu usuario, sin permisos de administrador o ejecutable único que se copia y se abre; Python va dentro. |
 | Espacio | 48 MB el programa; los ajustes ocupan unos pocos KB |
 | Internet | No lo usa para nada |
 
@@ -40,13 +40,14 @@ No modifica ni lee los datos del otro programa: solo cambia cómo se ve en tu mo
 
 ## Descarga y comprobación
 
-En [Releases](https://github.com/MaSoft/MAColor/releases/latest) están el programa (`MAColor_v1.1.1.exe`), su huella SHA-256 y el manual. Para comprobar que la descarga está completa, en PowerShell:
+En [Releases](https://github.com/MaSoft/MAColor/releases/latest) están el instalador (`MAColor_Setup_v1.1.1.exe`), el ejecutable único (`MAColor_v1.1.1.exe`), sus huellas SHA-256 y el manual. Para comprobar que la descarga está completa, en PowerShell:
 
 ```powershell
+Get-FileHash .\MAColor_Setup_v1.1.1.exe
 Get-FileHash .\MAColor_v1.1.1.exe
 ```
 
-Debe coincidir con `db06e95a33e6a9b05b7ccb7d7678c98796be6461c6e33ae15a9b9128f8489854`.
+Deben coincidir con `fc4106a05b8163e6f5e7cc3e103ada8f1b1d9c5be32baff8abd3ad0cf0980c27` (instalador) y `db06e95a33e6a9b05b7ccb7d7678c98796be6461c6e33ae15a9b9128f8489854` (ejecutable único).
 
 ## Manual
 
