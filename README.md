@@ -32,7 +32,7 @@ Más información y el manual también en [masoft.es](https://masoft.es/descarga
 |---|---|
 | Sistema | Windows 10 u 11 de 64 bits. Sustituir colores y «Texto y vista» necesitan Windows 10 versión 2004 o posterior |
 | Permisos | No necesita administrador |
-| Instalación | Instalador para tu usuario, sin permisos de administrador, o ejecutable único que se copia y se abre; Python va dentro. |
+| Instalación | Instalador para tu usuario, sin permisos de administrador, o ejecutable único que se copia y se abre; no hace falta instalar nada más. |
 | Espacio | 48 MB el programa; los ajustes ocupan unos pocos KB |
 | Internet | No lo usa para nada |
 
